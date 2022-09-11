@@ -1,16 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-           integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bootstrap Team Page</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Team Anka Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#staff">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="pic text-bg-dark">
+        <div class="card-img-overlay">
+            <h5 class="h card-title display-4 text-center">
+                The IT Career of your Dreams Starts Here
+            </h5>
+            <p class="p card-text display-1 text-center">Anka Code Team</p>
+            <a href="">
+                <button type="button" class="btn btn-danger">Our Services</button>
+            </a>
+        </div>
+    </div>
+    <section class="text-center  mt-5 p-4" id="service">
+        <h2 class="display-1">Services</h2>
+        <p class="display-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            magni consequuntur voluptates!
+        </p>
+        <div class="container p-5">
+            <div class="row  ">
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <i class="fas fa-code fa-5x bg-primary px-5 py-5 mb-5 text-white rounded-circle"></i>
+                    <h3 class="fw-bold fs-2">Programming</h3>
+                    <p class="fs-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam, ullam!
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <i class="fas fa-palette fa-5x bg-primary px-5 py-5 mb-5  text-white rounded-circle"></i>
+                    <h3 class="fw-bold fs-2">Design</h3>
+                    <p class="fs-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam, ullam!
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <i class="fas fa-network-wired fa-5x bg-primary px-5 py-5 mb-5 text-white rounded-circle"></i>
+                    <h3 class="fw-bold fs-2">Networking</h3>
+                    <p class="fs-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam, ullam!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="text-center mt-5" id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <p class="mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                    eum reprehenderit dicta!
+                </p>
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/c++.avif" class="card-img-top"
+                                alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">C++</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/java.jpg" class="card-img-top"
+                                alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">JAVA</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/JAVA-SCR%C4%B0PT.jfif"
+                                class="card-img-top" alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">JAVASCRİPT</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/python.webp" class="card-img-top"
+                                alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">PYTHON</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/html.jpg" class="card-img-top"
+                                alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card">
+                            <img src="https://ice-mman.github.io/Bootstrap-Study/img/sql.jpg" class="card-img-top"
+                                alt="" />
+                            <div class="card-body">
+                                <h5 class="card-title">Aws Devops</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Debitis, esse!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -18,11 +186,10 @@
 
 
 
-
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-   </script>
-   <script src="./lib/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+    <script src="./lib/fslightbox.js"></script>
 </body>
+
 </html>
